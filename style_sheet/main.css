@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@300&family=Mukta:wght@500;800&display=swap');
+:root{
+    --box-one-background : #4DD0E1;
+    --box-two-background : #FF8A65;
+    --box-three-background : #FFB74D;
+
+    --text-font-family : 'Montserrat', sans-serif;
+    --heading-font-family : 'Mukta', sans-serif;
+    --logo-font-family : 'Comfortaa', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.nav-bar{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.logo{
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    margin-top: 5px;
+    font-family: var(--logo-font-family);
+}
+
+.nav-bar a{
+    text-decoration: none;
+    position: relative;
+    left: 40%;
+    margin: 10px 30px;
+    font-family: var(--text-font-family);
+}
+.contain-sec{
+    padding: 10px;
+    background-color: rgba(114, 111, 111, 0.199);
+}
+
+.first-div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contain h1{
+    font-size: 48px;
+    line-height: 35px;
+    padding-top: 15px;
+    font-family: var(--heading-font-family);
+}
+
+.contain span{
+    color: #4DD0E1;
+}
+
+.contain h3{
+    font-size: 24px;
+    font-family: var(--heading-font-family);
+}
+
+.contain p{
+    font-size: 20px;
+    font-family: var(--text-font-family);
+}
+
+.first-div img{
+    width: 500px;
+    margin-left: 5%;
+}
+
+.container-sec{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+.img-1{
+    background-color: var(--box-one-background);
+}
+
+.img-2{
+    background-color: var(--box-two-background);
+}
+
+.img-3{
+    background-color: var(--box-three-background);
+}
+
+.img-sec p{
+    text-align: left;
+    font-family: var(--text-font-family);
+}
+
+.awesome{
+    text-align: center;
+    font-family: var(--text-font-family);
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgba(95, 94, 94, 0.521);
+}
+
+.phone-sec{
+    display: flex;
+}
+
+.phone-sec img{
+    width: 600px;
+    height: 500px;
+}
+
+.phone-p{
+    margin-top: 190px;
+}
+.phone-sec h1{
+    font-size: 28px;
+    font-family: var(--heading-font-family);
+}
+.phone-sec p{
+    font-size: 20px;
+    font-family: var(--text-font-family);
+}
